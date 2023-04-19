@@ -3,6 +3,7 @@
 #include <iomanip>
 using namespace std;
 int main()
+
 {
     double a, b;
     cout << "Enter two numbers: " << endl;
@@ -13,6 +14,7 @@ int main()
     cout << "The difference is " << fixed << setprecision(2) << a - b << endl;
     cout << "The product is " << fixed << setprecision(2) << a * b << endl;
     cout << "The quotient is " << fixed << setprecision(2) << a / b << endl;
+    
     return 0;
 }
 
